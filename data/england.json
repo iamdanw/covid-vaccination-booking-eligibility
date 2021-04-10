@@ -1,18 +1,117 @@
 [
   {
-    "captured_at": 1617286500,
+    "updated_at": 1612803000,
     "criteria": [
-      "you are aged 50 or over"
-      "you are at high risk from coronavirus (clinically extremely vulnerable)"
-      "you have a condition that puts you at higher risk (clinically vulnerable)"
-      "you have a learning disability"
+      "you are aged 70 or over",
+      "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)"
+    ]
+  },
+  {
+    "updated_at": 1613039820,
+    "criteria": [
+      "you are aged 70 or over",
+      "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are a frontline health or social care worker"
+    ]
+  },
+  {
+    "updated_at": 1613149080,
+    "criteria": [
+      "you are aged 65 and over",
+      "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are a frontline health or social care worker"
+    ]
+  },
+  {
+    "updated_at": 1613495940,
+    "criteria": [
+      "you are aged 65 and over",
+      "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are an eligible frontline health worker",
+      "you are an eligible frontline social care worker"
+    ]
+  },
+  {
+    "updated_at": 1614023400,
+    "criteria": [
+      "you are aged 64 or over",
+      "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are an eligible frontline health worker",
+      "you are an eligible frontline social care worker",
+      "you are eligible for Carer's Allowance – find out more about Carer's Allowance on GOV.UK"
+    ]
+  },
+  {
+    "updated_at": 1614357060,
+    "criteria": [
+      "you are aged 64 or over",
+      "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are an eligible frontline health worker",
+      "you are an eligible frontline social care worker",
+      "you get Carer's Allowance – find out more about Carer's Allowance on GOV.UK"
+    ]
+  },
+  {
+    "updated_at": 1614549600,
+    "criteria": [
+      "you are aged 60 or over",
+      "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are an eligible frontline health worker",
+      "you are an eligible frontline social care worker",
+      "you get Carer's Allowance – find out more about Carer's Allowance on GOV.UK"
+    ]
+  },
+  {
+    "updated_at": 1614792300,
+    "criteria": [
+      "you are aged 60 or over",
+      "you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are an eligible frontline health or social care worker",
+      "you have a condition that puts you at higher risk (clinically vulnerable)",
+      "you are a main carer for someone at high risk from coronavirus"
+    ]
+  },
+  {
+    "updated_at": 1614978660,
+    "criteria": [
+      "you are aged 56 or over",
+      "you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are an eligible frontline health or social care worker",
+      "you have a condition that puts you at higher risk (clinically vulnerable)",
+      "you have a learning disability",
+      "you are a main carer for someone at high risk from coronavirus"
+    ]
+  },
+  {
+    "updated_at": 1615223340,
+    "criteria": [
+      "you are aged 55 or over",
+      "you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are an eligible frontline health or social care worker",
+      "you have a condition that puts you at higher risk (clinically vulnerable)",
+      "you have a learning disability",
+      "you are a main carer for someone at high risk from coronavirus"
+    ]
+  },
+  {
+    "updated_at": 1615961340,
+    "criteria": [
+      "you are aged 50 or over",
+      "you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you are an eligible frontline health or social care worker",
+      "you have a condition that puts you at higher risk (clinically vulnerable)",
+      "you have a learning disability",
+      "you are a main carer for someone at high risk from coronavirus"
+    ]
+  },
+  {
+    "updated_at": 1617220800,
+    "criteria": [
+      "you are aged 50 or over",
+      "you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you have a condition that puts you at higher risk (clinically vulnerable)",
+      "you have a learning disability",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you are a carer"
-    ],
-    "additions": [
-
-    ],
-    "deletions": [
-
     ]
   }
 ]

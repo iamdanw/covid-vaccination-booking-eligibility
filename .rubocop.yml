@@ -17,6 +17,7 @@ AllCops:
     - 'Gemfile'
     - 'Guardfile'
     - vendor/bundle/**/*
+    - script/history.rb
 
 Style/Documentation:
   Enabled: false
