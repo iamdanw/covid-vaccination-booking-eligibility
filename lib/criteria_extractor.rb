@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'nokogiri'
+require 'time'
 
 class CriteriaExtractor
   def initialize(page)
@@ -14,5 +15,9 @@ class CriteriaExtractor
 
       criteria_list_items.map(&:text)
     end
+  end
+
+  def updated_at
+    @updated_at ||= Time.parse(@doc.css('meta[property="article:modified_time"]').attr('content').value)
   end
 end
