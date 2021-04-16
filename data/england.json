@@ -1,13 +1,13 @@
 [
   {
-    "updated_at": 1612803000,
+    "updated_at": "2021-02-08T16:50:00+00:00",
     "criteria": [
       "you are aged 70 or over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)"
     ]
   },
   {
-    "updated_at": 1613039820,
+    "updated_at": "2021-02-11T10:37:00+00:00",
     "criteria": [
       "you are aged 70 or over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "updated_at": 1613149080,
+    "updated_at": "2021-02-12T16:58:00+00:00",
     "criteria": [
       "you are aged 65 and over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -23,7 +23,7 @@
     ]
   },
   {
-    "updated_at": 1613495940,
+    "updated_at": "2021-02-16T17:19:00+00:00",
     "criteria": [
       "you are aged 65 and over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "updated_at": 1614023400,
+    "updated_at": "2021-02-22T19:50:00+00:00",
     "criteria": [
       "you are aged 64 or over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "updated_at": 1614357060,
+    "updated_at": "2021-02-26T16:31:00+00:00",
     "criteria": [
       "you are aged 64 or over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "updated_at": 1614549600,
+    "updated_at": "2021-02-28T22:00:00+00:00",
     "criteria": [
       "you are aged 60 or over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -62,7 +62,7 @@
     ]
   },
   {
-    "updated_at": 1614792300,
+    "updated_at": "2021-03-03T17:25:00+00:00",
     "criteria": [
       "you are aged 60 or over",
       "you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "updated_at": 1614978660,
+    "updated_at": "2021-03-05T21:11:00+00:00",
     "criteria": [
       "you are aged 56 or over",
       "you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -83,7 +83,7 @@
     ]
   },
   {
-    "updated_at": 1615223340,
+    "updated_at": "2021-03-08T17:09:00+00:00",
     "criteria": [
       "you are aged 55 or over",
       "you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "updated_at": 1615961340,
+    "updated_at": "2021-03-17T06:09:00+00:00",
     "criteria": [
       "you are aged 50 or over",
       "you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -105,7 +105,7 @@
     ]
   },
   {
-    "updated_at": 1617220800,
+    "updated_at": "2021-03-31T21:00:00+01:00",
     "criteria": [
       "you are aged 50 or over",
       "you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -115,7 +115,7 @@
     ]
   },
   {
-    "updated_at": 1618293360,
+    "updated_at": "2021-04-13T06:56:00+01:00",
     "criteria": [
       "you are aged 45 or over",
       "you are at high risk from coronavirus (clinically extremely vulnerable)",
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "updated_at": 1618590360,
+    "updated_at": "2021-04-16T17:26:00+01:00",
     "criteria": [
       "you were aged 45 or over on or before 30 March 2021",
       "you are at high risk from coronavirus (clinically extremely vulnerable)",

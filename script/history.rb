@@ -20,7 +20,7 @@ history = urls.map do |timestamp|
   criteria_extractor = CriteriaExtractor.new(page)
 
   {
-    updated_at: criteria_extractor.updated_at.to_i,
+    updated_at: criteria_extractor.updated_at.iso8601,
     criteria: criteria_extractor.criteria
   }
 end
