@@ -123,5 +123,15 @@
       "you have a learning disability",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you are a carer"
     ]
+  },
+  {
+    "updated_at": 1618590360,
+    "criteria": [
+      "you were aged 45 or over on or before 30 March 2021",
+      "you are at high risk from coronavirus (clinically extremely vulnerable)",
+      "you have a condition that puts you at higher risk (clinically vulnerable)",
+      "you have a learning disability",
+      "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you are a carer"
+    ]
   }
 ]
