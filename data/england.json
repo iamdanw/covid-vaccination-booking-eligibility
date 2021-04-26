@@ -133,5 +133,17 @@
       "you have a learning disability",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you are a carer"
     ]
+  },
+  {
+    "updated_at": "2021-04-26T06:41:00+01:00",
+    "criteria": [
+      "you're aged 44 or over",
+      "you'll turn 44 before 1 July 2021",
+      "you're at high risk from COVID-19 (clinically extremely vulnerable)",
+      "you have a condition that puts you at higher risk (clinically vulnerable)",
+      "you have a learning disability",
+      "you're an eligible frontline health or social care worker",
+      "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
+    ]
   }
 ]
