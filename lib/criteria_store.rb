@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class CriteriaStore
+  attr_reader :criteria
+
   def initialize(criteria)
     @criteria = criteria
   end

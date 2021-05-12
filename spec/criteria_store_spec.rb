@@ -39,4 +39,10 @@ RSpec.describe CriteriaStore do
       expect(criteria_store.latest).to eq latest_entry
     end
   end
+
+  describe '#criteria' do
+    it 'returns all the criteria' do
+      expect(criteria_store.criteria).to eq example_criteria
+    end
+  end
 end
