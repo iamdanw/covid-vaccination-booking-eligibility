@@ -47,27 +47,49 @@ RSpec.describe CriteriaStore do
   end
 
   describe '#add' do
-    let(:new_criteria) do
-      [
-        'you are aged 40 or over',
-        'you are at high risk from coronavirus (clinically extremely vulnerable)',
-        'you are an eligible frontline health or social care worker',
-        'you have a condition that puts you at higher risk (clinically vulnerable)',
-        'you have a learning disability',
-        'you are a main carer for someone at high risk from coronavirus',
-        'you are in a higher risk profession'
-      ]
-    end
     let(:updated_at) { '2021-04-30T06:52:00+01:00' }
 
-    it 'stores the updated_at timestamp' do
-      criteria_store.add(new_criteria, updated_at)
-      expect(criteria_store.latest['updated_at']).to eq updated_at
+    context 'when the criteria is not a duplicate' do
+      let(:new_criteria) do
+        [
+          'you are aged 40 or over',
+          'you are at high risk from coronavirus (clinically extremely vulnerable)',
+          'you are an eligible frontline health or social care worker',
+          'you have a condition that puts you at higher risk (clinically vulnerable)',
+          'you have a learning disability',
+          'you are a main carer for someone at high risk from coronavirus',
+          'you are in a higher risk profession'
+        ]
+      end
+
+      it 'stores the updated_at timestamp' do
+        criteria_store.add(new_criteria, updated_at)
+        expect(criteria_store.latest['updated_at']).to eq updated_at
+      end
+
+      it 'stores the criteria' do
+        criteria_store.add(new_criteria, updated_at)
+        expect(criteria_store.latest['criteria']).to match_array(new_criteria)
+      end
     end
 
-    it 'stores the criteria' do
-      criteria_store.add(new_criteria, updated_at)
-      expect(criteria_store.latest['criteria']).to match_array(new_criteria)
+    context 'when the criteria is a duplicate' do
+      let(:duplicate_criteria) do
+        [
+          'you are aged 55 or over',
+          'you are at high risk from coronavirus (clinically extremely vulnerable)',
+          'you are an eligible frontline health or social care worker',
+          'you have a condition that puts you at higher risk (clinically vulnerable)',
+          'you have a learning disability',
+          'you are a main carer for someone at high risk from coronavirus'
+        ]
+      end
+
+      it 'raises an error' do
+        expect do
+          criteria_store.add(duplicate_criteria, updated_at)
+        end.to raise_error(CriteriaStore::DuplicateCriteriaError)
+      end
     end
   end
 end

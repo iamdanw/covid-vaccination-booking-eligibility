@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 class CriteriaStore
+  class DuplicateCriteriaError < StandardError
+  end
+
   attr_reader :criteria
 
   def initialize(criteria)
@@ -14,6 +17,8 @@ class CriteriaStore
   end
 
   def add(new_criteria, updated_at)
+    raise DuplicateCriteriaError if new_criteria.sort == latest['criteria'].sort
+
     @criteria.push(
       {
         'updated_at' => updated_at,
