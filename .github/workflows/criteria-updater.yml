@@ -1,0 +1,33 @@
+name: Self update eligibility criteria
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '*/15 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby 2.7
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+      - name: Update English criteria JSON
+        run: bundle exec ruby lib/criteria_updater.rb data/england.json
+      - name: Save data
+        env:
+          GIT_OWNER_EMAIL: ${{ secrets.GIT_OWNER_EMAIL }}
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          if [[ `git status --porcelain` ]]; then
+            git config --global user.name 'iamdanw-bot'
+            git config --global user.email 'iamdanw-bot@users.noreply.github.com'
+            git commit -am "Add latest eligibility criteria"
+            git push
+          else
+            echo 'No changes to commit'
+          fi
