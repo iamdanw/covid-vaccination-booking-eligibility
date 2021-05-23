@@ -15,7 +15,8 @@ RSpec.describe CriteriaStore do
         'you have a condition that puts you at higher risk (clinically vulnerable)',
         'you have a learning disability',
         'you are a main carer for someone at high risk from coronavirus'
-      ]
+      ],
+      'min_age' => 55
     }
   end
   let(:example_criteria) do
@@ -28,7 +29,8 @@ RSpec.describe CriteriaStore do
           'you are an eligible frontline health or social care worker',
           'you have a condition that puts you at higher risk (clinically vulnerable)',
           'you are a main carer for someone at high risk from coronavirus'
-        ]
+        ],
+        'min_age' => 60
       },
       latest_entry
     ]
@@ -70,6 +72,11 @@ RSpec.describe CriteriaStore do
       it 'stores the criteria' do
         criteria_store.add(new_criteria, updated_at)
         expect(criteria_store.latest['criteria']).to match_array(new_criteria)
+      end
+
+      it 'stores the min_age' do
+        criteria_store.add(new_criteria, updated_at)
+        expect(criteria_store.latest['min_age']).to eq 40
       end
     end
 
