@@ -4,7 +4,8 @@
     "criteria": [
       "you are aged 70 or over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)"
-    ]
+    ],
+    "min_age": 70
   },
   {
     "updated_at": "2021-02-11T10:37:00+00:00",
@@ -12,7 +13,8 @@
       "you are aged 70 or over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
       "you are a frontline health or social care worker"
-    ]
+    ],
+    "min_age": 70
   },
   {
     "updated_at": "2021-02-12T16:58:00+00:00",
@@ -20,7 +22,8 @@
       "you are aged 65 and over",
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
       "you are a frontline health or social care worker"
-    ]
+    ],
+    "min_age": 65
   },
   {
     "updated_at": "2021-02-16T17:19:00+00:00",
@@ -29,7 +32,8 @@
       "you have previously received a letter saying you are at high risk from coronavirus (clinically extremely vulnerable)",
       "you are an eligible frontline health worker",
       "you are an eligible frontline social care worker"
-    ]
+    ],
+    "min_age": 65
   },
   {
     "updated_at": "2021-02-22T19:50:00+00:00",
@@ -39,7 +43,8 @@
       "you are an eligible frontline health worker",
       "you are an eligible frontline social care worker",
       "you are eligible for Carer's Allowance – find out more about Carer's Allowance on GOV.UK"
-    ]
+    ],
+    "min_age": 64
   },
   {
     "updated_at": "2021-02-26T16:31:00+00:00",
@@ -49,7 +54,8 @@
       "you are an eligible frontline health worker",
       "you are an eligible frontline social care worker",
       "you get Carer's Allowance – find out more about Carer's Allowance on GOV.UK"
-    ]
+    ],
+    "min_age": 64
   },
   {
     "updated_at": "2021-02-28T22:00:00+00:00",
@@ -59,7 +65,8 @@
       "you are an eligible frontline health worker",
       "you are an eligible frontline social care worker",
       "you get Carer's Allowance – find out more about Carer's Allowance on GOV.UK"
-    ]
+    ],
+    "min_age": 60
   },
   {
     "updated_at": "2021-03-03T17:25:00+00:00",
@@ -69,7 +76,8 @@
       "you are an eligible frontline health or social care worker",
       "you have a condition that puts you at higher risk (clinically vulnerable)",
       "you are a main carer for someone at high risk from coronavirus"
-    ]
+    ],
+    "min_age": 60
   },
   {
     "updated_at": "2021-03-05T21:11:00+00:00",
@@ -80,7 +88,8 @@
       "you have a condition that puts you at higher risk (clinically vulnerable)",
       "you have a learning disability",
       "you are a main carer for someone at high risk from coronavirus"
-    ]
+    ],
+    "min_age": 56
   },
   {
     "updated_at": "2021-03-08T17:09:00+00:00",
@@ -91,7 +100,8 @@
       "you have a condition that puts you at higher risk (clinically vulnerable)",
       "you have a learning disability",
       "you are a main carer for someone at high risk from coronavirus"
-    ]
+    ],
+    "min_age": 55
   },
   {
     "updated_at": "2021-03-17T06:09:00+00:00",
@@ -102,7 +112,8 @@
       "you have a condition that puts you at higher risk (clinically vulnerable)",
       "you have a learning disability",
       "you are a main carer for someone at high risk from coronavirus"
-    ]
+    ],
+    "min_age": 50
   },
   {
     "updated_at": "2021-03-31T21:00:00+01:00",
@@ -112,7 +123,8 @@
       "you have a condition that puts you at higher risk (clinically vulnerable)",
       "you have a learning disability",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you are a carer"
-    ]
+    ],
+    "min_age": 50
   },
   {
     "updated_at": "2021-04-13T06:56:00+01:00",
@@ -122,7 +134,8 @@
       "you have a condition that puts you at higher risk (clinically vulnerable)",
       "you have a learning disability",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you are a carer"
-    ]
+    ],
+    "min_age": 45
   },
   {
     "updated_at": "2021-04-16T17:26:00+01:00",
@@ -132,7 +145,8 @@
       "you have a condition that puts you at higher risk (clinically vulnerable)",
       "you have a learning disability",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you are a carer"
-    ]
+    ],
+    "min_age": 45
   },
   {
     "updated_at": "2021-04-26T06:41:00+01:00",
@@ -144,7 +158,8 @@
       "you have a learning disability",
       "you're an eligible frontline health or social care worker",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
-    ]
+    ],
+    "min_age": 44
   },
   {
     "updated_at": "2021-04-27T07:41:00+01:00",
@@ -156,7 +171,8 @@
       "you have a learning disability",
       "you're an eligible frontline health or social care worker",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
-    ]
+    ],
+    "min_age": 42
   },
   {
     "updated_at": "2021-04-30T06:52:00+01:00",
@@ -168,7 +184,8 @@
       "you have a learning disability",
       "you're an eligible frontline health or social care worker",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
-    ]
+    ],
+    "min_age": 40
   },
   {
     "updated_at": "2021-05-11T18:27:00+01:00",
@@ -179,7 +196,8 @@
       "you have a condition that puts you at higher risk (clinically vulnerable)",
       "you have a learning disability",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
-    ]
+    ],
+    "min_age": 40
   },
   {
     "updated_at": "2021-05-13T06:36:00+01:00",
@@ -191,7 +209,8 @@
       "you have a learning disability",
       "you're a frontline health or social care worker",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
-    ]
+    ],
+    "min_age": 38
   },
   {
     "updated_at": "2021-05-18T06:47:00+00:00",
@@ -203,7 +222,8 @@
       "you have a learning disability",
       "you're a frontline health or social care worker",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
-    ]
+    ],
+    "min_age": 36
   },
   {
     "updated_at": "2021-05-20T06:48:00+00:00",
@@ -215,7 +235,8 @@
       "you have a learning disability",
       "you're a frontline health or social care worker",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
-    ]
+    ],
+    "min_age": 34
   },
   {
     "updated_at": "2021-05-22T06:47:00+00:00",
@@ -227,6 +248,7 @@
       "you have a learning disability",
       "you're a frontline health or social care worker",
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
-    ]
+    ],
+    "min_age": 32
   }
 ]
