@@ -24,3 +24,6 @@ Style/Documentation:
 
 Metrics/BlockLength:
   Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
