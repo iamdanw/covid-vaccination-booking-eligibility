@@ -17,7 +17,7 @@ class CriteriaStore
   end
 
   def add(new_criteria, updated_at)
-    raise DuplicateCriteriaError if new_criteria.sort == latest['criteria'].sort
+    raise DuplicateCriteriaError unless find_matching_criteria(new_criteria).empty?
 
     @criteria.push(
       {
@@ -37,5 +37,11 @@ class CriteriaStore
   def extract_min_age_from_criteria(criteria)
     age_criteria = match_first_criteria(criteria, 'aged')
     age_criteria[/(\d+)/, 1].to_i
+  end
+
+  def find_matching_criteria(criteria_to_match)
+    @criteria.filter do |c|
+      criteria_to_match.sort == c['criteria'].sort
+    end
   end
 end

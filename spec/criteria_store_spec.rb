@@ -81,21 +81,41 @@ RSpec.describe CriteriaStore do
     end
 
     context 'when the criteria is a duplicate' do
-      let(:duplicate_criteria) do
-        [
-          'you are aged 55 or over',
-          'you are at high risk from coronavirus (clinically extremely vulnerable)',
-          'you are an eligible frontline health or social care worker',
-          'you have a condition that puts you at higher risk (clinically vulnerable)',
-          'you have a learning disability',
-          'you are a main carer for someone at high risk from coronavirus'
-        ]
+      context 'when the most recent stored criteria is duplicated' do
+        let(:duplicate_criteria) do
+          [
+            'you are aged 55 or over',
+            'you are at high risk from coronavirus (clinically extremely vulnerable)',
+            'you are an eligible frontline health or social care worker',
+            'you have a condition that puts you at higher risk (clinically vulnerable)',
+            'you have a learning disability',
+            'you are a main carer for someone at high risk from coronavirus'
+          ]
+        end
+
+        it 'raises an error' do
+          expect do
+            criteria_store.add(duplicate_criteria, updated_at)
+          end.to raise_error(CriteriaStore::DuplicateCriteriaError)
+        end
       end
 
-      it 'raises an error' do
-        expect do
-          criteria_store.add(duplicate_criteria, updated_at)
-        end.to raise_error(CriteriaStore::DuplicateCriteriaError)
+      context 'when an older stored criteria is duplicated' do
+        let(:duplicate_criteria) do
+          [
+            'you are aged 60 or over',
+            'you are at high risk from coronavirus (clinically extremely vulnerable)',
+            'you are an eligible frontline health or social care worker',
+            'you have a condition that puts you at higher risk (clinically vulnerable)',
+            'you are a main carer for someone at high risk from coronavirus'
+          ]
+        end
+
+        it 'raises an error' do
+          expect do
+            criteria_store.add(duplicate_criteria, updated_at)
+          end.to raise_error(CriteriaStore::DuplicateCriteriaError)
+        end
       end
     end
   end
