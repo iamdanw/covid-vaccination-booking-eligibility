@@ -276,5 +276,18 @@
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
     ],
     "min_age": 25
+  },
+  {
+    "updated_at": "2021-06-15T06:41:00+00:00",
+    "criteria": [
+      "you're aged 23 or over",
+      "you'll turn 23 before 1 July 2021",
+      "you're at high risk from COVID-19 (clinically extremely vulnerable)",
+      "you have a condition that puts you at higher risk (clinically vulnerable)",
+      "you have a learning disability",
+      "you're a frontline health or social care worker",
+      "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
+    ],
+    "min_age": 23
   }
 ]
