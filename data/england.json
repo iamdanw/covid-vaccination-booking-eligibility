@@ -314,5 +314,13 @@
       "you get a Carer's Allowance, get support following an assessment by your local authority or your GP record shows you're a carer"
     ],
     "min_age": 18
+  },
+  {
+    "updated_at": "2021-08-12T07:40:00+00:00",
+    "criteria": [
+      "aged 18 or over",
+      "aged 17 and within 3 months of your 18th birthday"
+    ],
+    "min_age": 18
   }
 ]
