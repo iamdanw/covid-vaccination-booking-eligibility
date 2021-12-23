@@ -322,5 +322,18 @@
       "aged 17 and within 3 months of your 18th birthday"
     ],
     "min_age": 18
+  },
+  {
+    "updated_at": "2021-12-23T12:26:00+00:00",
+    "criteria": [
+      "wait 4 weeks (28 days) if you're aged 18 years old or over",
+      "wait 12 weeks (84 days) if you're aged 12 to 17 years old",
+      "wait 4 weeks (28 days) if you're aged 12 to 17 years old and at high-risk from COVID-19",
+      "view your appointment",
+      "cancel or amend your appointment",
+      "you'll be breaching the terms of use for this service",
+      "you may be committing a criminal offence"
+    ],
+    "min_age": 4
   }
 ]
